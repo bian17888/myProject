@@ -10,16 +10,16 @@ gulp.task('stylus', function () {
 		.pipe(plumber())
 		.pipe(stylus())
 		.on('error', gutil.log) 
-		.pipe(gulp.dest('./html/css'))
+		.pipe(gulp.dest('./html/resources/css'))
 		.pipe(connect.reload());
 });
 
 gulp.task('templates', function() {
-	gulp.src('./templates/pages/*.ejs')
+	gulp.src('./templates/*.ejs')
 	 	.pipe(plumber())
 	    .pipe(ejs())
 	    .on('error', gutil.log) 
-	    .pipe(gulp.dest('./'));
+	    .pipe(gulp.dest('./html'));
 });
 
 gulp.task('connect', function () {
