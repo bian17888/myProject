@@ -1,4 +1,79 @@
-* {
+/* ===== Reset Stylesheet ===== */
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,65 +84,83 @@
 }
 body {
   line-height: 1;
-  color: #404040;
-  font: normal 12px/18px "\5b8b\4f53", Arial;
-  font-family: "\5FAE\8F6F\96C5\9ED1";
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: normal;
+:focus {
+  outline: 1;
 }
-del {
-  text-decoration: none;
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+  display: block;
 }
-em,
-i {
-  font-style: normal;
-}
-ul,
-ol,
-li {
+ul {
   list-style: none;
 }
-img {
-  border: 0 none;
+blockquote,
+q {
+  quotes: none;
 }
-button,
-input,
-select,
-textarea {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-size: 100%;
-  vertical-align: middle;
-  outline: none;
+  vertical-align: baseline;
+  background: transparent;
 }
-textarea {
-  resize: none;
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-a {
-  text-decoration: none;
-  color: #148cec;
-  cursor: pointer;
-}
-a:hover {
-  text-decoration: none;
-}
-.clearfix:after {
-  clear: both;
-  content: " ";
+hr {
   display: block;
-  font-size: 0;
-  height: 0;
-  visibility: hidden;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
-.clearfix {
-  zoom: 1;
+input,
+select {
+  vertical-align: middle;
+}
+i,
+em {
+  font-style: normal;
 }
