@@ -1,15 +1,3 @@
-/* ===== Main Color ===== */
-/* 
-blue_deep : #00a0e9
-blue_light : #bbdcf4
-blue_lighter : #dfeaf8
-yellow : #fabe00
-pink : #eb6ea5
-green : #c0c0c0
-grey : #dfeaf8
-grey_light : #dddddd
-465C : #c9a063
-*/
 /* ===== Page ===== */
 /* 营养分析 */
 .time-bar {
@@ -89,5 +77,84 @@ grey_light : #dddddd
 .elements-percentage dd.yellow .span-now {
   background-image: -moz-linear-gradient(left, #ffb319, #ffd427);
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, from(#ffb319), to(#ffd427));
+}
+/* 体重BMI */
+.bmi-num {
+  padding: 1.6rem 0;
+}
+.bmi-num ul {
+  -webkit-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 1.4rem;
+  -column-gap: 1.4rem;
+  -webkit-column-rule: 2px solid #e6e6e6;
+  olumn-rule: 2px solid #e6e6e6;
+}
+.bmi-num ul li {
+  color: #999;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  text-align: center;
+}
+.bmi-num ul li dd {
+  font-size: 2.6rem;
+  font-weight: normal;
+}
+.bmi-num ul li dd strong {
+  font-size: 2rem;
+  font-weight: normal;
+}
+.bmi-num ul li dd small {
+  font-size: 1.6rem;
+}
+/* 饮食记录 */
+.ysjl .ysjl-list {
+  font-size: 1.4rem;
+}
+.ysjl .ysjl-list h3 {
+  color: #666;
+  background-color: #e6f3fa;
+  padding: 0.8rem 3.125%;
+}
+.ysjl .ysjl-list li p {
+  border-bottom: 1px solid #ddd;
+  padding: 1.2rem 3.125% 0;
+}
+.ysjl .ysjl-list li p strong {
+  color: #00a0e9;
+  line-height: 2rem;
+}
+.ysjl .ysjl-list li p i {
+  display: inline-block;
+  verticle-align: middle;
+  color: #8fc31f;
+  font-size: 2.6rem;
+  cursor: pointer;
+}
+.ysjl .ysjl-list ol li {
+  font-size: 1.6rem;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 4.6875%;
+}
+.ysjl .ysjl-list ol li span {
+  color: #999;
+}
+.ysjl .ysjl-list li:last-child p {
+  border-bottom: 0px;
+}
+.ysjl .ysjl-list h3,
+.ysjl .ysjl-list li p,
+.ysjl .ysjl-list ol li {
+  display: -webkit-box;
+  display: box;
+}
+.ysjl .ysjl-list h3 strong,
+.ysjl .ysjl-list li p strong,
+.ysjl .ysjl-list ol li strong {
+  display: block;
+  font-weight: normal;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
 }
 /* m-Template */
