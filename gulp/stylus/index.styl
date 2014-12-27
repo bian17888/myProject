@@ -15,15 +15,14 @@ a:hover { text-decoration: underline }
 
 body
 	background #aac6de url("./../images/bg_background_repeatX.png") repeat-x 0 0
-body.bg-body
+body.bg-body .hz-wrap
 	background url("./../images/bg_banner_index.png") no-repeat center 40px
-.hz-wrap
-	min-height 650px
 .hz-wrap
 	position relative
 	color #404040
 	font nomal 12px/1.5 '\5FAE\8F6F\96C5\9ED1'
 	width 1000px
+	min-height 650px
 	margin 0 auto
 	z-index 9
 
@@ -54,10 +53,33 @@ body.bg-body
 	right 0px
 	bottom 20px
 	.a-btn
+		display: inline-block
+		height: 36px
+		vertical-align middle
 		margin 0 5px
 	.a-btn:last-child{
 		margin 0;
 	}
+	.span-breadcrumb
+		display inline-block
+		height: 36px
+		line-height: 36px
+		color: #ffffff
+		font-size: 12px
+		text-align: center
+		vertical-align middle
+		background #4e565c
+		padding 0 10px
+		border-radius 5px
+		-webkit-border-radius 5px
+		-moz-border-radius 5px
+		a
+			color #fff
+			text-decoration none
+		a:hover
+			text-decoration none
+		.icon-separate
+			margin 0 5px
 .m-content
 	width 1000px
 	height: 470px
@@ -69,7 +91,26 @@ body.bg-body
 	-webkit-border-radius 5px
 	-moz-border-radius 5px
 	.m-content-in
-		padding 10px 10px
+		padding 20px 15px
+		.table
+			width: 100%
+			border 1px solid #d3d3d3
+			border-width 1px 0 0 1px
+			margin 0 auto
+
+			th,td
+				color: #666666
+				vertical-align middle
+				border 1px solid #d3d3d3
+				border-width 0 1px 1px 0
+				padding 10px
+			th
+				color: #309acc
+				font-size: 14px
+				font-weight: bold
+				text-align: center
+				background-color: #f5f5f5
+				padding 15px
 
 
 
@@ -86,6 +127,11 @@ body.bg-body
 	width 36px
 	height: 36px
 	background-position  0 -46px
+.icon-separate
+	width: 5px
+	height: 9px
+	background-position  -48px 0px
+
 .ta-r
 	text-align right
 
