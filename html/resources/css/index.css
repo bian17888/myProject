@@ -82,6 +82,9 @@ body.bg-body .hz-wrap {
 body.bg-ggfw .hz-wrap {
   background: url("./../images/bg_banner_ggfw.png") no-repeat center 40px;
 }
+body.bg-zhkp .hz-wrap {
+  background: url("./../images/bg_banner_zhkp.png") no-repeat center 40px;
+}
 .hz-wrap {
   position: relative;
   color: #404040;
@@ -276,6 +279,23 @@ body.bg-ggfw .hz-wrap {
   background-color: #f5f5f5;
   padding: 15px;
 }
+.m-nav-piclist {
+  margin-top: 35px;
+}
+.m-nav-piclist p {
+  text-align: center;
+}
+.m-nav-piclist p a.btn-pic {
+  display: inline-block;
+  border-right: 1px dashed #87aece;
+  padding: 0 30px;
+}
+.m-nav-piclist p a.btn-pic:last-child {
+  border-right: 0;
+}
+.m-nav-piclist-noline p a.btn-pic {
+  border-right: 0;
+}
 .icon {
   display: inline-block;
   vertical-align: middle;
@@ -307,150 +327,6 @@ body.bg-ggfw .hz-wrap {
 }
 .pull-r {
   float: right;
-}
-/* Page
-======================================== */
-/* 首页 */
-.index .hz-wrap .content {
-  margin-top: 30px;
-}
-.index .hz-wrap .content h2 {
-  color: #fff;
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-}
-.index .hz-wrap .content .nav-table {
-  width: 1000px;
-  margin-top: 80px;
-}
-.index .hz-wrap .content .nav-table td {
-  width: 25%;
-  text-align: center;
-}
-/* 1.2 绩效考核 */
-.jxkh02 .hz-wrap .content {
-  margin-top: 30px;
-}
-.jxkh02 .hz-wrap .content h2 {
-  color: #fff;
-  font-size: 48px;
-  font-weight: bold;
-  text-align: center;
-}
-.jxkh02 .hz-wrap .content .nav-table {
-  width: 800px;
-  margin: 80px auto 0;
-}
-.jxkh02 .hz-wrap .content .nav-table td {
-  width: 46%;
-  text-align: center;
-  padding: 12px 7%;
-}
-.jxkh02 .hz-wrap .content .nav-table td .btn {
-  display: block;
-  padding: 10px 12px;
-}
-/* 1.3 市政府十大实事项目绩效考核评议 */
-/* 1.6 市政府十大实事项目绩效考核评议 */
-.jxkh06 form {
-  width: 800px;
-  margin: 100px auto 20px;
-}
-.jxkh06 form table {
-  width: 100%;
-}
-.jxkh06 form table th,
-.jxkh06 form table td {
-  vertical-align: top;
-  padding: 5px;
-}
-.jxkh06 form table td label {
-  position: relative;
-  top: 5px;
-}
-.jxkh06 form table td input,
-.jxkh06 form table td textarea {
-  display: block;
-  width: 100%;
-  color: #404040;
-  line-height: 20px;
-  background-color: #fff;
-  border: 1px solid #e1e1e1;
-  margin: 0;
-}
-.jxkh06 form table .btn {
-  margin-right: 20px;
-}
-/* 1.7 市政府十大实事项目绩效考核评议 */
-.jxkh07 table {
-  width: 100%;
-}
-.jxkh07 table td {
-  text-align: center;
-}
-.jxkh07 table td:first-child {
-  text-align: left;
-}
-/* 2.1 公共服务窗口服务评价满意情况 */
-.ggfw01 .div-info h2 {
-  color: #fff;
-  font-size: 48px;
-  text-align: center;
-  margin: 20px auto 20px;
-}
-.ggfw01 .div-info p {
-  color: #fff;
-  text-indent: 2em;
-  line-height: 1.6;
-  margin: 10px 0;
-}
-.ggfw02 .m-content {
-  background-color: #e2ebf4;
-}
-.ggfw02 .m-content .ggfw-links {
-  width: 970px;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap {
-  width: 970px;
-  overflow: hidden;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul {
-  width: 1000px;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li {
-  position: relative;
-  float: left;
-  width: 227px;
-  padding: 10px 0 12px;
-  margin: 0 20px 0 0;
-  z-index: 9;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li i,
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li a {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 18px;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li i {
-  color: #b0b6bb;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li a {
-  color: #404044;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li a:hover {
-  color: #266ca4;
-  text-decoration: none;
-}
-.ggfw02 .m-content .ggfw-links .ul-wrap ul li .div-line {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 227px;
-  height: 0;
-  line-height: 0;
-  border-top: 1px solid #dadada;
-  border-bottom: 1px solid #fff;
 }
 /* Copy content
 ======================================== */
