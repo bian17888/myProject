@@ -17,6 +17,8 @@ body
 	background #aac6de url("./../images/bg_background_repeatX.png") repeat-x 0 0
 body.bg-body .hz-wrap
 	background url("./../images/bg_banner_index.png") no-repeat center 40px
+body.bg-ggfw .hz-wrap
+	background url("./../images/bg_banner_ggfw.png") no-repeat center 40px
 .hz-wrap
 	position relative
 	color #404040
@@ -83,6 +85,7 @@ body.bg-body .hz-wrap
 .m-content
 	width 1000px
 	height: 470px
+	font-size: 12px
 	overflow-x hidden
 	overflow-y auto
 	background-color: #ffffff
@@ -92,6 +95,21 @@ body.bg-body .hz-wrap
 	-moz-border-radius 5px
 	.m-content-in
 		padding 20px 15px
+		.top-info
+			margin 5px auto 15px
+			p
+				margin 10px 0
+				span,a
+					margin 0 15px
+				a:last-child{
+					margin-right:0
+				}
+		.div-title
+			h3
+				color: #666666
+				font-size: 14px
+			span
+				color: #808080
 		.table
 			width: 100%
 			border 1px solid #d3d3d3
@@ -114,7 +132,6 @@ body.bg-body .hz-wrap
 
 
 
-
 .icon
 	display inline-block
 	vertical-align middle
@@ -132,8 +149,14 @@ body.bg-body .hz-wrap
 	height: 9px
 	background-position  -48px 0px
 
+.ta-c
+	text-align center
 .ta-r
 	text-align right
+.pull-l
+	float left
+.pull-r
+	float right
 
 /* Page
 ======================================== */
@@ -176,6 +199,49 @@ body.bg-body .hz-wrap
 
 /* 1.3 市政府十大实事项目绩效考核评议 */
 
+/* 1.6 市政府十大实事项目绩效考核评议 */
+.jxkh06
+	form
+		width 800px
+		margin  100px auto 20px
+
+		table
+			width 100%
+			th,td
+				vertical-align top
+				padding 5px
+			td input, td textarea
+				display block
+				width: 100%
+				color: #404040
+				line-height 20px
+				background-color: #ffffff
+				border 1px solid #e1e1e1
+			.btn
+				margin-right 20px
+
+/* 1.7 市政府十大实事项目绩效考核评议 */
+.jxkh07
+	table
+		width 100%
+		td
+			text-align center
+		td:first-child{
+			text-align left
+		}
+/* 2.1 公共服务窗口服务评价满意情况 */
+.ggfw01
+	.div-info
+		h2
+			color: #ffffff
+			font-size: 48px
+			text-align: center
+			margin: 20px auto 20px
+		p
+			color: #ffffff
+			text-indent 2em
+			line-height: 1.6
+			margin 10px 0
 
 
 
@@ -198,6 +264,15 @@ body.bg-body .hz-wrap
 }
 .btn:hover
 	text-decoration none
+.btn-default
+	color: #333
+	background-color: #fff
+	border 1px solid #ccc
+.btn-default:hover
+	color: #333
+	background-color: #e6e6e6
+	border 1px solid #adadad
+
 .btn-navlinks
 	color #fff
 	background-color #1f5072
