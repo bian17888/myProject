@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bb46c6-f8be-4817-97b2-0e2dd818ba64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/stylus/page.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.2_jxkp_links.html" afterPath="$PROJECT_DIR$/html/1.2_jxkp_links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.3_jxkp_sub.html" afterPath="$PROJECT_DIR$/html/1.3_jxkp_sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.4_jxkp_sub.html" afterPath="$PROJECT_DIR$/html/1.4_jxkp_sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.5_jxkp_sub.html" afterPath="$PROJECT_DIR$/html/1.5_jxkp_sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.6_jxkp_sub.html" afterPath="$PROJECT_DIR$/html/1.6_jxkp_sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.7_jxkp_sub.html" afterPath="$PROJECT_DIR$/html/1.7_jxkp_sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/1.8_jxkp_sub.html" afterPath="$PROJECT_DIR$/html/1.8_jxkp_sub.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/2.1_ggfw.html" afterPath="$PROJECT_DIR$/html/2.1_ggfw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/templates/2.2_ggfw.ejs" afterPath="$PROJECT_DIR$/gulp/templates/2.2_ggfw.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/2.2_ggfw.html" afterPath="$PROJECT_DIR$/html/2.2_ggfw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/2.3_ggfw.html" afterPath="$PROJECT_DIR$/html/2.3_ggfw.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/_index.html" afterPath="$PROJECT_DIR$/html/_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/templates/3.5.1_hzzhkp.ejs" afterPath="$PROJECT_DIR$/gulp/templates/3.5.1_hzzhkp.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/3.5.1_hzzhkp.html" afterPath="$PROJECT_DIR$/html/3.5.1_hzzhkp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/resources/css/index.css" afterPath="$PROJECT_DIR$/html/resources/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/stylus/index.styl" afterPath="$PROJECT_DIR$/gulp/stylus/index.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/templates/inc/meta.ejs" afterPath="$PROJECT_DIR$/gulp/templates/inc/meta.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/resources/css/page.css" afterPath="$PROJECT_DIR$/html/resources/css/page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/stylus/page.styl" afterPath="$PROJECT_DIR$/gulp/stylus/page.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myProject.iws" />
@@ -41,41 +31,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_index.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/templates/_index.ejs">
+      <file leaf-file-name="1.2_jxkp_links.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulp/templates/1.2_jxkp_links.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
-              <caret line="10" column="110" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="110" />
+            <state vertical-scroll-proportion="-24.375" vertical-offset="0" max-vertical-offset="750">
+              <caret line="39" column="19" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="3.5.1_hzzhkp.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/templates/3.5.1_hzzhkp.ejs">
+      <file leaf-file-name="script.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulp/templates/inc/script.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="720">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.023847377" vertical-offset="0" max-vertical-offset="629">
+              <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.styl" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/stylus/index.styl">
+      <file leaf-file-name="meta.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulp/templates/inc/meta.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-51.24" vertical-offset="1449" max-vertical-offset="4125">
-              <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.styl" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulp/stylus/page.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83280253" vertical-offset="2072" max-vertical-offset="2745">
-              <caret line="173" column="28" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+              <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -110,19 +90,27 @@
         <option value="$PROJECT_DIR$/gulp/templates/inc/meta.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/2.2_ggfw.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/3.1_hzzhkp.ejs" />
-        <option value="$PROJECT_DIR$/gulp/stylus/index.styl" />
         <option value="$PROJECT_DIR$/gulp/templates/3.4_hzzhkp.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/3.3_hzzhkp.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/3.2_hzzhkp.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/3.5_hzzhkp.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/3.6_hzzhkp.ejs" />
         <option value="$PROJECT_DIR$/gulp/templates/3.5.1_hzzhkp.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/4.1_jxdc.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/4.2_jxdc.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/4.3_jxdc.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/5.1_kp.ejs" />
+        <option value="$PROJECT_DIR$/gulp/stylus/index.styl" />
         <option value="$PROJECT_DIR$/gulp/stylus/page.styl" />
+        <option value="$PROJECT_DIR$/gulp/templates/5.2_kp.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/5.3_kp.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/5.4_kp.ejs" />
+        <option value="$PROJECT_DIR$/gulp/templates/5.5_kp.ejs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1278" />
     <option name="height" value="773" />
@@ -372,28 +360,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="stylus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -477,14 +443,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1278" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="4" y="23" width="1278" height="773" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39941263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -534,14 +500,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/inc/script.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023847377" vertical-offset="0" max-vertical-offset="629">
-          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/resources/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54058194" vertical-offset="727" max-vertical-offset="1380">
@@ -584,26 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/inc/meta.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.023847377" vertical-offset="0" max-vertical-offset="629">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/templates/1.6_jxkp_sub.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6576728" vertical-offset="0" max-vertical-offset="930">
           <caret line="26" column="62" selection-start-line="26" selection-start-column="62" selection-end-line="26" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/1.7_jxkp_sub.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31703204" vertical-offset="697" max-vertical-offset="1290">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -648,14 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/1.2_jxkp_links.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7711039" vertical-offset="110" max-vertical-offset="750">
-          <caret line="39" column="19" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/templates/3.3_hzzhkp.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="616">
@@ -696,6 +630,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/3.5.1_hzzhkp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34253246" vertical-offset="89" max-vertical-offset="705">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/_index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23847377" vertical-offset="0" max-vertical-offset="629">
+          <caret line="10" column="110" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/4.1_jxdc.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulp/templates/3.6_hzzhkp.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="675">
@@ -704,34 +662,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/_index.ejs">
+    <entry file="file://$PROJECT_DIR$/gulp/templates/5.4_kp.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="555">
-          <caret line="10" column="110" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="110" />
+        <state vertical-scroll-proportion="1.6801949" vertical-offset="30" max-vertical-offset="1290">
+          <caret line="71" column="54" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/3.5.1_hzzhkp.ejs">
+    <entry file="file://$PROJECT_DIR$/gulp/templates/4.2_jxdc.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="720">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.11973018" vertical-offset="259" max-vertical-offset="885">
+          <caret line="22" column="47" selection-start-line="20" selection-start-column="24" selection-end-line="22" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/stylus/index.styl">
+    <entry file="file://$PROJECT_DIR$/gulp/templates/4.3_jxdc.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-51.24" vertical-offset="1449" max-vertical-offset="4125">
-          <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.16233766" vertical-offset="5" max-vertical-offset="645">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/5.1_kp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="616">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/5.2_kp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70616883" vertical-offset="0" max-vertical-offset="616">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/1.7_jxkp_sub.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79545456" vertical-offset="650" max-vertical-offset="1290">
+          <caret line="76" column="18" selection-start-line="65" selection-start-column="8" selection-end-line="76" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/5.3_kp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="616">
+          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/5.6_kp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.121753246" vertical-offset="225" max-vertical-offset="870">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/5.5_kp.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58116883" vertical-offset="362" max-vertical-offset="1125">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulp/stylus/page.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83280253" vertical-offset="2072" max-vertical-offset="2745">
-          <caret line="173" column="28" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.8566879" vertical-offset="2762" max-vertical-offset="3390">
+          <caret line="220" column="12" selection-start-line="220" selection-start-column="12" selection-end-line="220" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/stylus/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6210191" vertical-offset="0" max-vertical-offset="4185">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/1.2_jxkp_links.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.375" vertical-offset="0" max-vertical-offset="750">
+          <caret line="39" column="19" selection-start-line="38" selection-start-column="8" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/inc/meta.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/templates/inc/script.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023847377" vertical-offset="0" max-vertical-offset="629">
+          <caret line="1" column="84" selection-start-line="1" selection-start-column="84" selection-end-line="1" selection-end-column="84" />
           <folding />
         </state>
       </provider>
